@@ -1,0 +1,33 @@
+name: testcodecept
+recipe: lamp
+config:
+    webroot: www
+proxy:
+    appserver:
+        - test-codecept.local
+services:
+    appserver:
+        type: php:8.2
+        scanner: false
+        composer_version: 2-latest
+        xdebug: coverage
+tooling:
+    install:
+        description: install third party packages
+        cmd:
+            - appserver: composer install -d /app/www
+    composer:
+        service: appserver
+        dir: /app/www
+    codeception:
+        service: appserver
+        description: Run codeception
+        cmd: /app/www/vendor/bin/codecept
+    tests:
+        service: appserver
+        description: all tests (Codeception)
+        cmd: /app/www/vendor/bin/codecept run --html report-tests.html
+    coverage:
+        service: appserver
+        description: code coverage (Codeception)
+        cmd: /app/www/vendor/bin/codecept run --html report-coverage.html --coverage-html
