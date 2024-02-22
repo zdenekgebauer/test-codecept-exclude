@@ -15,4 +15,4 @@ coverage:
     include:
         - www/*
     exclude:
-        - vendor/*
+        - www/vendor/*

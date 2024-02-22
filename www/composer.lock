@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efdb0bad61147503f74a8172078ece6c",
+    "content-hash": "44da2f3a85b7a849954fc08524b216c9",
     "packages": [],
     "packages-dev": [
         {
@@ -76,12 +76,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "a271f007825d8100ab96014121bcf9506e774677"
+                "reference": "5c4171785550a73808265a726bfaf4f1cfae23a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/a271f007825d8100ab96014121bcf9506e774677",
-                "reference": "a271f007825d8100ab96014121bcf9506e774677",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/5c4171785550a73808265a726bfaf4f1cfae23a3",
+                "reference": "5c4171785550a73808265a726bfaf4f1cfae23a3",
                 "shasum": ""
             },
             "require": {
@@ -184,7 +184,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-02-19T20:01:20+00:00"
+            "time": "2024-02-21T18:36:37+00:00"
         },
         {
             "name": "codeception/lib-asserts",
@@ -968,16 +968,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4a21235f7e56e713259a6f76bf4b5ea08502b9dc"
+                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4a21235f7e56e713259a6f76bf4b5ea08502b9dc",
-                "reference": "4a21235f7e56e713259a6f76bf4b5ea08502b9dc",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2218c2252c874a4624ab2f613d86ac32d227bc69",
+                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69",
                 "shasum": ""
             },
             "require": {
@@ -1020,9 +1020,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.1"
             },
-            "time": "2024-01-07T17:17:35+00:00"
+            "time": "2024-02-21T19:24:10+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -4155,11 +4155,7 @@
     "platform": {
         "php": ">=8.2"
     },
-    "platform-dev": {
-        "ext-dom": "*",
-        "ext-libxml": "*",
-        "ext-pdo": "*"
-    },
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.2"
     },

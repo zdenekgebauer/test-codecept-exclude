@@ -17,13 +17,12 @@
   },
   "autoload" : {
     "psr-4" : {
-      "Site\\" : "app/Site/"
+      "Site\\" : "app/Site/",
+      "Some\\" : "app/Some/",
+      "SomeLibrary\\" : "libs/"
     }
   },
   "require-dev" : {
-    "ext-dom" : "*",
-    "ext-libxml" : "*",
-    "ext-pdo" : "*",
     "codeception/codeception" : "dev-coverage-exclude-for-phpunit11 as 5.1.1",
     "codeception/module-asserts" : "^3.0",
     "codeception/module-phpbrowser" : "^3.0"
